@@ -5,6 +5,10 @@ You can use pre-defined search engines or add your own with custom triggers.
 
 ---
 
+## Screenshot
+
+![](https://raw.githubusercontent.com/alexanstgr/findex-extension/refs/heads/main/thumbnail.png)
+
 ## Features
 
 - Quickly search using multiple search engines.
