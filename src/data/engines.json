@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Google",
+    "trigger": "@gg",
+    "searchUrl": "https://www.google.com/search?q={query}",
+    "text": "search in Google"
+  },
+  {
+    "name": "YouTube",
+    "trigger": "@ytb",
+    "searchUrl": "https://www.youtube.com/results?search_query={query}",
+    "text": "search in YouTube"
+  },
+
+  {
+    "name:": "Brave Search",
+    "trigger": "@brv",
+    "searchUrl": "https://search.brave.com/search?q={query}",
+    "text": "search in Brave"
+  },
+
+  {
+    "name": "DuckDuckGo",
+    "trigger": "@ddg",
+    "searchUrl": "https://duckduckgo.com/?q={query}",
+    "text": "search in DuckDuckGo"
+  },
+
+  {
+    "name": "Yahoo",
+    "trigger": "@yah",
+    "searchUrl": "https://search.yahoo.com/search?p={query}",
+    "text": "search in Yahoo"
+  },
+
+  {
+    "name": "Yarn Package Manager",
+    "trigger": "@yarn",
+    "searchUrl": "https://yarnpkg.com/search?q={query}",
+    "text": "search for packages"
+  },
+
+  {
+    "name": "NPM Package Manager",
+    "trigger": "@npm",
+    "searchUrl": "https://www.npmjs.com/search?q={query}",
+    "text": "search for packages"
+  },
+
+  {
+    "name": "GitHub",
+    "trigger": "@git",
+    "searchUrl": "https://github.com/search?q={query}",
+    "text": "search in GitHub"
+  },
+
+  {
+    "name": "Unboxholics",
+    "trigger": "@uh",
+    "searchUrl": "https://unboxholics.com/search?q={query}",
+    "text": "αναζήτηση άρθρου"
+  },
+
+  {
+    "name": "Papaki.gr",
+    "trigger": "@papaki",
+    "searchUrl": "https://www.papaki.com/el/katoxirosi-domain?domain={query}",
+    "text": "check for domain"
+  },
+
+  {
+    "name": "Skroutz Greece",
+    "trigger": "@skroutz.gr",
+    "searchUrl": "https://www.skroutz.gr/search?q={query}",
+    "text": "αναζήτηση προϊόντων"
+  },
+
+  {
+    "name": "Skroutz Cyprus",
+    "trigger": "@skroutz.cy",
+    "searchUrl": "https://www.skroutz.com.cy/search?q={query}",
+    "text": "search in Skroutz Cyprus"
+  },
+
+  {
+    "name": "Skroutz Romania",
+    "trigger": "@skroutz.ro",
+    "searchUrl": "https://www.skroutz.ro/search?q={query}",
+    "text": "search in Skroutz Romania  "
+  },
+
+  {
+    "name": "Skroutz Bulgaria",
+    "trigger": "@skroutz.bg",
+    "searchUrl": "https://www.skroutz.bg/search?q={query}",
+    "text": "search in Skroutz Bulgaria"
+  }
+]

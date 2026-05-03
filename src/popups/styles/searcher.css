@@ -1,0 +1,36 @@
+@import "./root.css";
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+  width: 320px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 0.26px;
+  border: none;
+  gap: 8px;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 0.5rem;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  height: 45px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 7px;
+  text-align: center;
+}

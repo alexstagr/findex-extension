@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/register.css" />
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <title>Register Engine</title>
+  </head>
+
+  <body>
+    <div class="error" id="error"></div>
+    <div class="logo"></div>
+
+    <!-- form container -->
+    <div class="container">
+      <input id="name" placeholder="Engine Name e.g (Google)" />
+      <input id="trigger" placeholder="Desired Trigger e.g (@gg)" />
+      <input id="searchUrl" placeholder="https://google.com?q=" />
+      <input id="text" placeholder="Searching in Google" />
+
+      <div class="btn primary" id="save">Save Engine</div>
+      <div class="btn neutral" id="manage">Manage User Engines</div>
+    </div>
+
+    <!-- bottom links -->
+    <div class="links">
+      <a
+        href="https://github.com/alexanstgr/findex-extension"
+        class="github"
+      ></a>
+      <a
+        href="https://github.com/alexanstgr/findex-extension/issues"
+        class="issues"
+      ></a>
+    </div>
+
+    <script type="module" src="./js/register.js"></script>
+  </body>
+</html>
